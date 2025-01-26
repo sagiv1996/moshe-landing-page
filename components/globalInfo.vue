@@ -1,7 +1,7 @@
 <template>
   <v-sheet rounded class="px-md-16">
     <v-row align="center">
-      <v-col :cols="8" class="text-h4 text-justify">
+      <v-col lg="8" cols="12" class="text-h4 text-justify">
         <span class="text-h3">בלה בלה בלה בלה בלה בלה בלה בלה בלה</span>
         מילים לדוגמא, מילים לדוגמא מיליאם לדוגמא בלה בלהבלה בלה בלה בלה בלה בלה
         בלה בלה בלהב לה בלה בלהבלה בלה בלה בלה בלה בלה בלה בלה בלהב לה בלה
@@ -10,6 +10,8 @@
         בלהבלה בלה בלה בלה בלה בלה בלה בלה בלהב לה בלה בלהבלה בלה בלה בלה בלה
         בלה בלה בלה בלהב לה
       </v-col>
-      <v-col :cols="4"> <v-img src="/global-info.png"></v-img> </v-col> </v-row
+      <v-col lg="4" cols="12">
+        <v-img src="/global-info.png"></v-img>
+      </v-col> </v-row
   ></v-sheet>
 </template>

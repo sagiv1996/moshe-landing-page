@@ -1,15 +1,27 @@
 <template>
   <v-sheet rounded color="secondary" class="px-md-16">
-    <v-row align="center">
-      <v-col :cols="4">
-        <v-avatar
-          image="/about-me.JPG"
-          size="500"
-          class="border-lg border-success mt-n12"
-        ></v-avatar>
+    <v-row align="center" justify="center">
+      <v-col lg="4" cols="12" class="justify-center">
+        <v-img
+          v-if="mdAndUp"
+          src="/about-me.JPG"
+          class="border-lg rounded-pill mt-n12"
+          alt="Moshe picture"
+          width="250"
+          height="auto"
+        ></v-img>
+        <v-img
+          v-else
+          src="/about-me.JPG"
+          class="border-lg rounded-pill mt-n12"
+          alt="Moshe picture"
+          width="100%"
+          height="200"
+          cover
+        ></v-img>
       </v-col>
-      <v-col :cols="8" class="text-h4 text-justify">
-        <span class="text-h3">שמי משה ליבוביץ, </span>
+      <v-col lg="8" cols="12" class="text-h5 text-justify">
+        <span class="text-h4">שמי משה ליבוביץ, </span>
         מאמן מוסמך באימון מנטלי וטיפול רגשי באמצעות ספורט. אותי הספורט תפס כבר
         בגיל צעיר מאוד, הייתי רוב שעות היום מתאמן בכדורסל, העולם הזה קנה אותי
         תוך שניה. עם השנים גם הדרכתי קבוצות של ילדים/נערים במספר מסגרות ותמיד
@@ -22,3 +34,6 @@
     </v-row></v-sheet
   >
 </template>
+<script setup lang="ts">
+const { mdAndUp } = useDisplay();
+</script>
