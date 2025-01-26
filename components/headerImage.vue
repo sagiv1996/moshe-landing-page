@@ -1,5 +1,5 @@
 <template>
-  <v-parallax src="/header-image.png" max-height="80vh">
+  <v-parallax src="/header-image.png" style="height: 80dvh">
     <div
       class="d-flex flex-column fill-height justify-center align-center text-white"
     >
