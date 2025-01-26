@@ -1,5 +1,5 @@
 <template>
-  <v-sheet rounded color="secondary" class="px-16">
+  <v-sheet rounded color="secondary" class="px-md-16">
     <v-row align="center">
       <v-col :cols="4">
         <v-avatar
