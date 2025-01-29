@@ -2,7 +2,7 @@
   <v-sheet color="secondary" class="px-md-16">
     <v-row>
       <v-col v-for="feature in featuresArray" cols="12" lg="4" sm="6">
-        <v-card :title="feature.title" :subtitle="feature.subtitle" hover>
+        <v-card :title="feature.title" :text="feature.subtitle" hover>
           <template v-slot:prepend>
             <v-icon
               :color="feature.color"
