@@ -1,7 +1,7 @@
 <template>
   <v-sheet rounded class="px-md-16">
     <v-row align="center">
-      <v-col lg="8" cols="12" class="text-h5 text-justify">
+      <v-col lg="8" cols="12" class="text-h5 text-justify text-secondary">
         <span class="text-h4">
           ספורט הוא כלי טיפולי עוצמתי שיכול לשנות חיים.
         </span>
