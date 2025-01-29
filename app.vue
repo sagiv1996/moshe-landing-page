@@ -5,6 +5,7 @@
       <about-me />
       <global-info />
       <feature-cards />
+      <faq />
     </v-main>
   </v-app>
 </template>
