@@ -1,5 +1,5 @@
 <template>
-  <v-sheet rounded class="px-md-16">
+  <v-sheet rounded class="px-md-16 my-3">
     <v-row align="center">
       <v-col lg="8" cols="12" class="text-h5 text-justify text-secondary">
         <span class="text-h4">
