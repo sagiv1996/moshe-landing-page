@@ -7,17 +7,6 @@
       <feature-cards />
       <faq />
       <v-fab
-        location="top"
-        text="צור קשר"
-        prepend-icon="mdi-form-select"
-        app
-        color="info"
-        aria-label="Button of google form"
-        href="https://docs.google.com/forms/d/e/1FAIpQLSf0HIU86b6gVI29v2fZb2VBrvSHVBNJ5bMo1-0vsUY7s71GXw/viewform?embedded=true"
-        target="_blank"
-        class="mt-15"
-      />
-      <v-fab
         icon="mdi-whatsapp"
         app
         color="success"
