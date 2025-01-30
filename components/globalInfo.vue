@@ -3,7 +3,7 @@
     <v-row align="center">
       <v-col lg="8" cols="12">
         <v-card
-          title="ספורט הוא כלי טיפולי עוצמתי שיכול לשנות חיים."
+          title="ספורט הוא כלי משנה חיים"
           class="text-justify text-secondary"
           flat
         >
