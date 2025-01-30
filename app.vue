@@ -9,6 +9,9 @@
         <v-col cols="auto">
           <button-connect />
         </v-col>
+        <v-col cols="12">
+          <v-divider />
+        </v-col>
       </v-row>
       <faq />
       <v-fab
