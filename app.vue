@@ -30,3 +30,6 @@
     </v-main>
   </v-app>
 </template>
+<script setup lang="ts">
+useHead({ title: "משה ליבוביץ - ספורט ככלי טיפולי" });
+</script>
