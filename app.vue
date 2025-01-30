@@ -5,7 +5,7 @@
       <about-me />
       <global-info />
       <feature-cards />
-      <v-row justify="center" class="mt-5">
+      <v-row justify="center" class="mt-8">
         <v-col cols="auto">
           <button-connect />
         </v-col>
