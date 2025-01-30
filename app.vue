@@ -18,7 +18,6 @@
         class="mt-15"
       />
       <v-fab
-        location="top"
         icon="mdi-whatsapp"
         app
         color="success"
