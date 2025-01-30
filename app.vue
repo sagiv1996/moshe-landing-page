@@ -5,6 +5,11 @@
       <about-me />
       <global-info />
       <feature-cards />
+      <v-row justify="center" class="mt-5">
+        <v-col cols="auto">
+          <button-connect />
+        </v-col>
+      </v-row>
       <faq />
       <v-fab
         icon="mdi-whatsapp"
