@@ -4,7 +4,7 @@
       <v-col lg="4" cols="12" class="justify-center">
         <v-img
           v-if="mdAndUp"
-          src="/about-me.JPG"
+          src="/about-me.png"
           class="border-lg rounded-pill mt-n12"
           alt="Moshe picture"
           width="250"
@@ -12,7 +12,7 @@
         ></v-img>
         <v-img
           v-else
-          src="/about-me.JPG"
+          src="/about-me.png"
           class="border-lg rounded-pill mt-n12"
           alt="Moshe picture"
           width="100%"
