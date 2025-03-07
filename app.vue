@@ -1,6 +1,10 @@
 <template>
   <v-app>
     <v-main>
+      <v-app-bar scroll-behavior="hide" density="prominent">
+        <v-img src="/moshe-logo.png" alt="logo image" />
+      </v-app-bar>
+
       <header-image />
       <about-me />
       <global-info />
